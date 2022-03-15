@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    
+}
+#main{
+    /* justify-content: space-between; */
+    position: relative;
+}
+.Header{
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background-color: #191718;
+}
+.Header-bar{
+
+}
+
+.header-bar--item{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;  
+    padding: 14px 91px 11px 16px;
+    border-top: 1px solid #5c5c5c;
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.header-bar--item,.special{
+    color: #fff;
+    border-top: unset;
+}
+.item-hover{
+    cursor: pointer;
+    color: #AAAAAA;
+}
+.item-hover:hover{
+    background-color: #5C5C5C;
+    color: #fff;
+}
+.Content{
+    left: 150px;
+    position: absolute;
+    width: 1768px;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 0 129px 0;
+}
+    
+.content-logo{
+    width: 310px;
+    height: 122px;
+    margin-bottom: 30px;
+}
+
+.content-rectangle-4{
+    width: 1510px;
+    height: 210px;
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+.span{
+    position: absolute;
+    width: 241px;
+    height: 21px;
+    top: 0;
+    left: 634px;
+    padding: 38px 0 18px 0 ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.content-rectangle-4-description{
+     width: 972px;
+    height: 95px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 269px;
+    color: #000000;
+}
+
+.content-item{
+    
+}
+
+.content-item-h4{
+        width: 470px;
+    height: 28px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.content-item--svg{
+
+}
+
+.content-item--description{
+        width: 326px;
+    height: 134px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
